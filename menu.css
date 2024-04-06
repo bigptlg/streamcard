@@ -88,3 +88,9 @@ nav a:hover {
     transform: rotate(-135deg);
 }
 
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 768px) {
+    header {
+        width: 95%;
+    }
+}
