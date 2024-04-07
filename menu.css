@@ -1,8 +1,9 @@
 header {
-    padding: 10px;
     position: fixed;
     width: 100%;
     z-index: 1;
+    margin: none;
+    padding: none;
 }
 
 label {
@@ -11,6 +12,8 @@ label {
     position: relative;
     display: inline-block;
     cursor: pointer;
+    margin: 20px;
+    z-index: 1;
 }
 
 span.linha {
@@ -36,17 +39,20 @@ span.linha {
 }
 
 nav {
-    background-color: rgba(88, 88, 88, 0.555);
+    background-color: rgba(88, 88, 88, 0.5);
     backdrop-filter: blur(10px);
     transform: translateX(-110%);
     transition: .5s ease-in-out;
-    border-radius: 10px;
-    width: 98%;
+    /* border-radius: 10px; */
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
 }
 
 nav ul {
     padding: 0;
-    margin: 0;
+    margin: 50px 0;
     list-style: none;
     width: 100%;
 }
@@ -58,7 +64,7 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: #f0f0ff;
+    color: #fff;
     display: block;
     padding: 10px;
     font-weight: bold;
@@ -67,11 +73,13 @@ nav a {
 nav a:hover {
     background-color: #fff;
     color: #000000;
+    border-radius: 10px;
 }
 
 .menu nav {
     transform: translateX(0%);
     display: block;
+    margin: auto;
 }
 
 .menu #linha1 {
@@ -93,4 +101,16 @@ nav a:hover {
     header {
         width: 95%;
     }
+    
+nav {
+    background-color: rgba(88, 88, 88, 0.5);
+    backdrop-filter: blur(10px);
+    transform: translateX(-110%);
+    transition: .5s ease-in-out;
+    /* border-radius: 10px; */
+    width: 65%;
+    height: 120vh;
+    position: absolute;
+    top: 0;
+}
 }
