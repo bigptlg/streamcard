@@ -36,7 +36,8 @@ span.linha {
 }
 
 nav {
-    background-color: #000000;
+    background-color: rgba(88, 88, 88, 0.555);
+    backdrop-filter: blur(10px);
     transform: translateX(-110%);
     transition: .5s ease-in-out;
     border-radius: 10px;
@@ -75,20 +76,19 @@ nav a:hover {
 
 .menu #linha1 {
     top: 10px;
-    transform: rotate(135deg);
+    transform: rotate(225deg);
 }
 
 .menu #linha2 {
     top: 10px;
-    transform: rotate(405deg);
+    transform: rotate(495deg);
 }
 
 .menu #linha3 {
     top: 10px;
-    transform: rotate(-135deg);
+    transform: rotate(-225deg);
 }
 
-/* Estilos para dispositivos móveis */
 @media screen and (max-width: 768px) {
     header {
         width: 95%;
