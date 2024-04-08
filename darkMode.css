@@ -51,3 +51,11 @@
     background-color: #cacaca;
 }
 
+.dark .footer {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.dark .footer a {
+    color: #ffffff;
+}
