@@ -5,6 +5,12 @@ body {
     font-family: Arial, sans-serif;
 }
 
+nav i {
+    font-size: 2em;
+    margin: 15px 0 0 70px;
+    cursor: pointer;
+}
+
 .main {
     display: flex;
     flex-direction: column;
@@ -18,7 +24,6 @@ body {
 } */
 
 .welcome {
-    background-color: #f0f0ff;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -89,7 +94,7 @@ body {
 }
 
 .card-content button:hover {
-    background-color: #262626;
+    background-color: #454545;
 }
 
 .footer {
