@@ -1,10 +1,11 @@
 .dark{
-    background: linear-gradient(135deg, rgba(135,135,135,1) 0%, rgba(67,67,67,1) 35%);
+    background: linear-gradient(135deg, rgba(135,135,135,1) 0%, rgb(75, 75, 75) 35%);
     color: #fff;
 }
 
-.dark img{
+.dark .card img{
     filter: grayscale(100%);
+    box-shadow: 0 0 20px #a2a2a2, 0 0 20px 3px #848484;
 }
 
 .dark #logo{
