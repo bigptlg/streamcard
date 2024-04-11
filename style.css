@@ -43,7 +43,7 @@ nav i {
 }
 
 .card {
-    background-color: #cfcfff;
+    background-color: #f0f0ff;
     width: 80%;
     margin: 1em;
     border-radius: 50px;
@@ -61,7 +61,7 @@ nav i {
     height: auto;
     align-self: center;
     border-radius: 35px;
-    box-shadow: 0 0 20px 5px #d3d3d3, 0 0 20px 5px #babecc;
+    box-shadow: 0 0 20px 5px #4d4d4d, 0 0 20px 5px #babecc;
 }
 
 .card {
