@@ -61,7 +61,7 @@ nav i {
     height: auto;
     align-self: center;
     border-radius: 35px;
-    box-shadow: 0 0 20px 5px #4d4d4d, 0 0 20px 5px #babecc;
+    box-shadow: 0 0 20px 2px #4d4d4d;
 }
 
 .card {
