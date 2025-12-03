@@ -1,0 +1,82 @@
+.dark {
+    /* ============= PALETA DE CORES ============= */
+    --gradient-start: #0f417a;
+    --gradient-end: #071540;
+    
+    --color-white: #ffffff;
+    --color-black: #000000;
+    
+    --color-bg-nav: #0f417acc;
+    --color-bg-card: #081e62;
+    --color-bg-footer: #081e62;
+    
+    --color-bg-button: #ffffff;
+    --color-bg-button-hover: #e0e0e0;
+    
+    --color-shadow-1: rgba(3, 28, 120, 0.5);
+    --color-shadow-2: rgba(9, 87, 165, 0.6);
+    --color-shadow-3: #155cc7;
+    /* =========================================== */
+
+    background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 35%);
+    color: var(--color-white);
+}
+
+.dark .card img {
+    filter: grayscale(20%);
+}
+
+.dark #logo {
+    filter: brightness(0) invert(); 
+}
+
+.dark .linha {
+    background-color: var(--color-white);
+}
+
+.dark nav {
+    background-color: var(--color-bg-nav);
+    backdrop-filter: blur(10px);
+}
+
+.dark nav a {
+    text-decoration: none;
+    color: var(--color-white);
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.dark nav a:hover {
+    color: var(--color-black);
+}
+
+.dark .main {
+    color: var(--color-white);
+}
+
+.dark .card {
+    background-color: var(--color-bg-card);
+    box-shadow: 35px 35px 68px 0px var(--color-shadow-1), 
+                inset -8px -8px 16px 0px var(--color-shadow-2), 
+                inset 0px 11px 28px 0px var(--color-shadow-3);
+    color: var(--color-white);
+}
+
+.dark .card-content button {
+    background-color: var(--color-bg-button);
+    color: var(--color-black);
+}
+
+.dark .card-content button:hover {
+    background-color: var(--color-bg-button-hover);
+}
+
+.dark .footer {
+    background-color: var(--color-bg-footer);
+    color: var(--color-white);
+}
+
+.dark .footer a {
+    color: var(--color-white);
+}
