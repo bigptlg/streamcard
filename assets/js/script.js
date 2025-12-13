@@ -32,6 +32,11 @@ $(document).ready(function(){
   $("#menuIcon").click(function(){
     $("header").toggleClass("menu");
   });
+
+    document.querySelectorAll('#menu ul li a').forEach(e => {e.addEventListener('click', () => {
+      (document.querySelector('#menu ul li a'))
+      header.classList.remove('menu')
+    })})
     
     function darkMode(){
 
@@ -85,3 +90,4 @@ $(document).ready(function(){
   $("#daMode").click(darkMode);
 
 });
+
