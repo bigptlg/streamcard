@@ -1,3 +1,4 @@
+/* style.css */
 :root {
     /* ============= PALETA DE CORES ============= */
     --primary-text-color: #000000;
@@ -167,7 +168,6 @@ a img {
 
     .welcome {
         display: flex;
-        flex-direction: row;
     }
 
     .card {
