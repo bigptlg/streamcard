@@ -41,4 +41,12 @@ document.addEventListener('DOMContentLoaded', () => {
     daMode.addEventListener('click', darkMode);
   }
 
+  document.addEventListener('click', (e) => {
+    if (header.classList.contains('menu') && 
+        !header.contains(e.target)) {
+      header.classList.remove('menu');
+    }
+  });
+  
 });
+
